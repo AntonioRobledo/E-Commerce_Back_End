@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^3.2.0",
+    "sequelize": "^6.30.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seeds/index.js"
+  },
+  "name": "e-commerce_back_end",
+  "description": "",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntonioRobledo/E-Commerce_Back_End.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AntonioRobledo/E-Commerce_Back_End/issues"
+  },
+  "homepage": "https://github.com/AntonioRobledo/E-Commerce_Back_End#readme"
+}
